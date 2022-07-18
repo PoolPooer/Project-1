@@ -30,7 +30,6 @@ body{
 /*set navbar properties */
 .navbar {
   padding-top: 50px;
-  padding bottom: 50px;
   padding-right: 50px;
   height: 50px;
   float: right;
@@ -218,7 +217,7 @@ footer{
   }
 
   .navbar-links li a {
-    padding: : .5rem 1rem;
+    padding: .5rem 1rem;
   }
 
   .navbar-links.active {
