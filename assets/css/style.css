@@ -15,17 +15,19 @@ body{
   color: white;
 }
 
-
+/*set logo size */
 #logo, #menu{
   line-height: 45px;
 }
 
+/*set logo postion */
 #logo {
   float: left;
   padding-top: 50px;
   padding-left: 50px;
 }
 
+/*set navbar properties */
 .navbar {
   padding-top: 50px;
   padding bottom: 50px;
@@ -38,22 +40,26 @@ body{
   color: white;
 }
 
+/*set logo class postion */
 .logo-image{
   display: flex;
   height:40px;
   width: 200px;
 }
 
+/*properties for items in navbar */
 .navbar-links ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
+/*set style for individual items in navbar list */
 .navbar-links li{
   list-style: none;
 }
 
+/*remove line under link and set color /size */
 .navbar-links li a{
   text-decoration: none;
   color: white;
@@ -61,10 +67,12 @@ body{
   display: block;
 }
 
+/*set mouse over color */
 .navbar-links li:hover {
   background-color: #e91b1b;
 }
 
+/*properties for burger menu icon */
 .toggle-button{
   position: absolute;
   top: 4.7rem;
@@ -76,6 +84,7 @@ body{
   height: 21px;
 }
 
+/*properties for burger menu individual bars*/
 .toggle-button .bar{
   height: 3px;
   width: 100%;
@@ -83,12 +92,14 @@ body{
   border-radius: 10px;
 }
 
+/*set parameters for outter banner container*/
 .img-container-outer{
   height: 700px;
   width:100%;
   overflow: hidden;
 }
 
+/*properties for banner image and animation*/
 .img-container{
   height:800px;
   width:100%;
@@ -101,6 +112,7 @@ body{
   animation-fill-mode: both;
 }
 
+/*properties for banner image animation*/
 @keyframes banner-zoom {
   from{
     transform: scale(1);
@@ -110,6 +122,7 @@ body{
   }
 }
 
+/*properties for content container*/
 .container{
   width:90%;
   height:100%;
@@ -119,6 +132,7 @@ body{
   align-content: center;
 }
 
+/* properties for text content*/
 #container-info{
   padding-top: 30px;
   padding-right: 120px;
@@ -126,6 +140,7 @@ body{
   float: left;
 }
 
+/* properties for image content*/
 #container-image{
   padding-top: 30px;
   padding-left: 50px;
@@ -133,30 +148,35 @@ body{
   float: right;
 }
 
+/* properties additional h1 for other pages*/
 #music{
   font-size: 40px;
   text-align: center;
 }
 
+/* properties additional h1 for other pages*/
 #videos{
   padding-top: 200px;
   margin-left: 40px;
 }
 
-
+/* size of footer*/
 footer{
   height: 150px;
 }
 
+/* postion of social media icons */
 .social-media{
   padding-right: 45px;
   text-align: center;
 }
 
+/* arrangment of display of social media icons */
 .social-media li{
   display: inline;
 }
 
+/* size / color of social media icons */
 .social-media i{
   font-size: 150%;
   margin: 1%;
@@ -164,12 +184,15 @@ footer{
   color: white;
 }
 
+/* postion and formatting of contact form */
 .contact-us{
   text-align: center;
   padding-top: 150px;
   padding-bottom: 50px;
   align-content: center;
 }
+
+/* media queries for navbar */
 @media (max-width: 650px) {
   .toggle-button{
     display: flex;
